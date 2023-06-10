@@ -21,9 +21,7 @@ public class C {
         }
         
         for(int i = nums.length; i  >= 1; i--){
-          
             ans = (ans + ((long)i * nums[i-1]) % MOD - (sum[i]) % MOD + MOD) % MOD;
-
         }
         
         return (int)ans;
