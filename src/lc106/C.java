@@ -34,16 +34,4 @@ public class C {
         }
         return step;
     }
-
-    private void update(int[] nums, char[] dir) {
-        for (int i = 0; i < nums.length; i++) {
-            // System.out.println(dir[i]);
-            if (dir[i] == 'R')
-                nums[i] = nums[i] + 1;
-            else {
-                nums[i] = nums[i] - 1;
-            }
-        }
-
-    }
 }
