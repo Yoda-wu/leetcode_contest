@@ -1,10 +1,10 @@
 import lc106.A;
-import lc106.C;
+import lc349.C;
 
 
 public class App {
     public static void main(String[] args) throws Exception {
         var a = new C();
-        System.out.println(a.sumDistance(new int[]{-2,0,2}, "RLL", 3));
+        System.out.println(a.minCost(new int[]{31,25,18,59}, 27));
     }
 }
