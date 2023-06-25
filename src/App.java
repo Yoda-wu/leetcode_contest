@@ -1,4 +1,3 @@
-import lc106.A;
 import lc349.C;
 
 
